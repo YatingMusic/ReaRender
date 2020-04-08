@@ -1,4 +1,4 @@
-# Audio Autorender in REAPER
+# ReaRender
 
 A python toolkit for automatic audio/MIDI rendering using REAPER
 
