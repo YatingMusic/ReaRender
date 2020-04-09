@@ -14,11 +14,9 @@ program_start_time = time.time()
 tolerance_sec = 20
 
 # IO folders
-path_indir = '/Users/wayne391/Documents/Projects/midi_rendering/git/audio-autorender-reaper/src/signel_media/midi'
-path_outdir = '/Users/wayne391/Documents/Projects/midi_rendering/git/audio-autorender-reaper/src/signel_media/midi'
-
-# path_indir = '/Users/username/Documents/audio-autorender-reaper/src/signel_media/midi'
-# path_outdir = '/Users/username/Documents/audio-autorender-reaper/src/signel_media/audio'
+# [!] full path recommended
+path_indir = '/Users/username/.../data/signel_media/midi'
+path_outdir = '/Users/username/.../data/signel_media/midi'
 
 # list files
 filelist = traverse_dir(

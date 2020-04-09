@@ -13,9 +13,9 @@ program_start_time = time.time()
 tolerance_sec = 20
 
 # IO folders
-path_midi = '/Users/wayne391/Documents/Projects/midi_rendering/git/audio-autorender-reaper/src/multi_media/m.midi'
-path_audio = '/Users/wayne391/Documents/Projects/midi_rendering/git/audio-autorender-reaper/src/multi_media/a.mp3'
-path_outfile = '/Users/wayne391/Documents/Projects/midi_rendering/git/audio-autorender-reaper/src/multi_media/synth_out'
+path_midi = '/Users/username/.../data/multi_media/m.midi'
+path_audio = '/Users/username/.../data/multi_media/a.mp3'
+path_outfile = '/Users/username/.../data/multi_media/synth_out'
 
 # mapping dict: (track_idx, path_media)
 mapping_dict = {
