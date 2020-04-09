@@ -5,7 +5,7 @@ A python toolkit for automatic audio/MIDI rendering using REAPER
 What is REAPER?   
 [REAPER](https://www.reaper.fm/) is a DAW providing APIs in pyhton/lua/C++.
 
-<img src="docs/diagram.png" width="200">
+<img src="docs/diagram.png" width="500" align="center">
 
 ## Introduction
 For musicians/audio programmers, using DAW (digital audio workstation) for music/audio processing is common nowadays. They can utilize abundant sound effects/plugins and customized settings to achieve their desired sound. 
