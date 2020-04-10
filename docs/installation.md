@@ -86,7 +86,7 @@ $ ln -s ibpython3.7m.dylib libpython.dylib
 For example, mine is ```/Users/username/anaconda3/lib```, as shown in the figure
 * Remeber to click "Apply"
 
-<img src="figs/enable_python.png" width="300">
+<img src="figs/enable_python.png" width="500">
 
 #### 3b. Load RemoteControl Script
 Open ```/Modules/beyond/Reaper/Settings.py```, Step 1.
@@ -100,7 +100,7 @@ Open ```/Modules/beyond/Reaper/Settings.py```, Step 1.
 # in ...\Modules\beyond\Reaper\RemoteControl.py
 Reaper_RemoteControl_CommandID = "_RS..."
 ```
-<img src="figs/actions.png" width="300">
+<img src="figs/actions.png" width="500">
 
 ### 3c. Reaper's OSC and Addresses
 Open ```/Modules/beyond/Reaper/Settings.py```, Step 2.
@@ -110,8 +110,8 @@ Open ```/Modules/beyond/Reaper/Settings.py```, Step 2.
 * Make sure the "Pattern config:" is set to Default.
 * Select "Mode" to local "port"
 
-<img src="figs/OSC.png" width="300">
-<img src="figs/OSC_setting.png" width="300">
+<img src="figs/OSC.png" width="500">
+<img src="figs/OSC_setting.png" width="500">
 
 #### 3d. Set python executable for REAPER
 Open ```/Modules/beyond/Reaper/Settings.py```, Step 3.
@@ -134,7 +134,7 @@ Finally, we are here. But there are some minor settings you need to pay attentio
 
 * Click "Automatically close when finished", or it will block your process.
 
-<img src="figs/render.png" width="300">)
+<img src="figs/rendering.png" width="500">)
 
 * Timeout setting
 In ```/Modules/beyond/Network.py```, there is a variable named TimeOut. If you have a file consuming lots of time, you could make it longer.
