@@ -21,8 +21,7 @@ We hope this toolkit can boost the development in related fields. For example, i
 ## Meet with REMI
 Listen some samples composed by our AI composition model - [REMI](https://github.com/YatingMusic/remi) and rendered by our [ReaRender](https://github.com/YatingMusic/ReaRender) project.
 
-[](data/signel_media/audio/1ea2986cfd1f455e0fd35d8566b88dd1.wav)
-
+<audio id="ID004" source src="data/signel_media/audio/1ea2986cfd1f455e0fd35d8566b88dd1.wav">
 
 ## Requirements
 * Python 3
