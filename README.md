@@ -18,31 +18,29 @@ This toolkit brings an alternative solution: musician/audio engineers can custom
 
 We hope this toolkit can boost the development in related fields. For example, it can synthesize huge amount of data with high quality, which is beneficial for transcription, source separation, automatic music composition, and etc.
 
-## Meet with REMI
+## Meet with our AI Composer
 Listen some samples composed by our AI composition model - [REMI](https://github.com/YatingMusic/remi) and rendered by our [ReaRender](https://github.com/YatingMusic/ReaRender) project.
 
-<audio id="ID004" source src="data/signel_media/audio/1ea2986cfd1f455e0fd35d8566b88dd1.wav">
 
 ## Requirements
 * Python 3
 * REAPER 5.X
 
 ## Usage
-#### 1. Install *beyond_reaper*
+### 1. Install *beyond_reaper*
 
 To controll REAPER in python, you need to install **beyond_reaper**.
 Please check out [here](beyond_reaper/installation.md) for the instructions.
 
-#### 2. Create Projects
+### 2. Create Projects
 The instruction [here](docs/project_setting.md) will show musicians and engineers how to setup their REAPER project.
 
-#### 3. RUN!
+### 3. RUN!
 We have two templates:
 * single media - [synth_single_media.py](synth_single_media.py)
 * multi media - [synth_multi_media.py](synth_multi_media.py)
 
 Following the structure of the repo and place the media files into these corresponding folders. You can run the programs directly.
-
 
 ## License
 MIT License
