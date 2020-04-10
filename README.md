@@ -18,7 +18,7 @@ This toolkit brings an alternative solution: musician/audio engineers can custom
 
 We hope this toolkit can boost the development in related fields. For example, it can synthesize huge amount of data with high quality, which is beneficial for transcription, source separation, automatic music composition, and etc.
 
-## Meet with our AI Composer
+## Meet with our AI Composers
 Listen some samples composed by our AI composition model - [REMI](https://github.com/YatingMusic/remi) and rendered by our [ReaRender](https://github.com/YatingMusic/ReaRender) project.
 
 [Link](TBD)
@@ -49,5 +49,4 @@ MIT License
 ---
 ## References
 * [ReaScript API](https://www.reaper.fm/sdk/reascript/reascripthelp.html)
-
 * [Reascript API Doc](https://www.extremraym.com/cloud/reascript-doc/#MIDI_GetNote)
