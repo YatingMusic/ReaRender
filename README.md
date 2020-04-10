@@ -18,6 +18,11 @@ This toolkit brings an alternative solution: musician/audio engineers can custom
 
 We hope this toolkit can boost the development in related fields. For example, it can synthesize huge amount of data with high quality, which is beneficial for transcription, source separation, automatic music composition, and etc.
 
+## Meet with REMI
+Listen some samples composed by our AI composition model - [REMI](https://github.com/YatingMusic/remi) and rendered by our [ReaRender](https://github.com/YatingMusic/ReaRender) project.
+
+[](data/signel_media/audio/1ea2986cfd1f455e0fd35d8566b88dd1.wav)
+
 
 ## Requirements
 * Python 3
@@ -41,7 +46,7 @@ Following the structure of the repo and place the media files into these corresp
 
 
 ## License
-TBD
+MIT License
 
 ---
 ## References
