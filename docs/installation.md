@@ -86,7 +86,7 @@ $ ln -s ibpython3.7m.dylib libpython.dylib
 For example, mine is ```/Users/username/anaconda3/lib```, as shown in the figure
 * Remeber to click "Apply"
 
-![](docs/figs/actions.png)
+![image](figs/enable_python.png)
 
 #### 3b. Load RemoteControl Script
 Open ```/Modules/beyond/Reaper/Settings.py```, Step 1.
@@ -100,15 +100,18 @@ Open ```/Modules/beyond/Reaper/Settings.py```, Step 1.
 # in ...\Modules\beyond\Reaper\RemoteControl.py
 Reaper_RemoteControl_CommandID = "_RS..."
 ```
+![image](figs/actions.png)
 
 ### 3c. Reaper's OSC and Addresses
 Open ```/Modules/beyond/Reaper/Settings.py```, Step 2.
-
 
 * From Reaper's "Options/Preferences" select "Control/OSC/web" page.
 * Press "Add" and select "OSC (Open Sound Control)".
 * Make sure the "Pattern config:" is set to Default.
 * Select "Mode" to local "port"
+
+![image](figs/OSC.png)
+![image](figs/OSC_setting.png)
 
 #### 3d. Set python executable for REAPER
 Open ```/Modules/beyond/Reaper/Settings.py```, Step 3.
@@ -131,6 +134,8 @@ Python = r"/Users/username/anaconda3/bin/python"
 Finally, we are here. But there are some minor settings you need to pay attentions:
 
 * Click "Automatically close when finished", or it will block your process.
+
+![image](figs/render.png)
 
 * Timeout setting
 In ```/Modules/beyond/Network.py```, there is a variable named TimeOut. If you have a file consuming lots of time, you could make it longer.
