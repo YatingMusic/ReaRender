@@ -16,7 +16,7 @@ For AI/ML researchers, especially in MIR/audio fields, they need programmable li
 
 This toolkit brings an alternative solution: musician/audio engineers can customize their setting in DAW as usual, while AI/ML researchers can automate the rendering process to get their desired data.
 
-We hope this toolkit can boost the development in related fields. For example, it can synthesize huge amount of data with high quality, which is beneficial for *transcription, source separation, automatic music composition, and etc.
+We hope this toolkit can boost the development in related fields. For example, it can synthesize huge amount of data with high quality, which is beneficial for transcription, source separation, automatic music composition, and etc.
 
 
 ## Requirements
@@ -27,10 +27,10 @@ We hope this toolkit can boost the development in related fields. For example, i
 #### 1. Install *beyond_reaper*
 
 To controll REAPER in python, you need to install **beyond_reaper**.
-Please check out [here](beyond_reaper) for the instructions.
+Please check out [here](beyond_reaper/installation.md) for the instructions.
 
 #### 2. Create Projects
-The instructions [here](docs/project_setting.md) will show musicians and engineers how to setup their REAPER project.
+The instruction [here](docs/project_setting.md) will show musicians and engineers how to setup their REAPER project.
 
 #### 3. RUN!
 We have two templates:
