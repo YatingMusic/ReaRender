@@ -31,7 +31,7 @@ Listen some samples composed by our AI composition model - [REMI](https://github
 ### 1. Install *beyond_reaper*
 
 To controll REAPER in python, you need to install **beyond_reaper**.
-Please check out [here](beyond_reaper/installation.md) for the instructions.
+Please check out [here]((docs/installation.md) for the instructions.
 
 ### 2. Create Projects
 The instruction [here](docs/project_setting.md) will show musicians and engineers how to setup their REAPER project.
