@@ -21,13 +21,10 @@ We hope this toolkit can boost the development in related fields. For example, i
 ## Meet our AI Composers
 Listen to some samples composed by our AI composition model - [REMI](https://github.com/YatingMusic/remi) and rendered by our [ReaRender](https://github.com/YatingMusic/ReaRender) project.
 
-### Piano solo
-[SoundCloud](https://soundcloud.com/yating_ai/sets/ai-piano-generation-demo-202004)
+* **Piano solo:** [SoundCloud](https://soundcloud.com/yating_ai/sets/ai-piano-generation-demo-202004)
 
-### Piano + Drums
+* **Piano & drums:** [SoundCloud](https://soundcloud.com/yating_ai/sets/ai-pianodrum-generation-demo-202004)   
 The drum loops are automatically added by analyzing the structure and grooving of the generated piano track.  
-
-[SoundCloud](https://soundcloud.com/yating_ai/sets/ai-pianodrum-generation-demo-202004)
 
 
 ## Requirements

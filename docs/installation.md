@@ -128,16 +128,16 @@ Python = r"/Users/username/anaconda3/bin/python"
 ```
 
 ## Have Fun
-Finally, we are here. But there are some minor settings you need to pay attentions:
+Finally, we are here. But there are some minor settings you need to pay attention:
 
 * Click "Automatically close when finished", or it will block your process.
 
-<img src="figs/rendering.png" width="500">)
+<img src="figs/rendering.png" width="500">
 
 * Timeout setting
-In ```/Modules/beyond/Network.py```, there is a variable named TimeOut. If you have a file consuming lots of time, you could make it longer.
+In ```/Modules/beyond/Network.py```, there is a variable named ```TimeOut```. If you have a file consuming lots of time, you should make it larger.
 
-* [pytautogui](https://pyautogui.readthedocs.io/en/latest/install.html) is your best good friend. If there are dialogue windows blocking your program, just use the package to simulate human's behavior - click next!
+* [pytautogui](https://pyautogui.readthedocs.io/en/latest/install.html) is your best good friend. If there is any dialogue window blocking your program, just use it to simulate human's behavior - click next!
 
 * The detailed instructions of setting for the musicians and engneers, please visit [project_setting.md](project_setting.md).
 
