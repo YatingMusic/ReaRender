@@ -37,7 +37,7 @@ First of all, check the current python you are using. Simply type this in your c
 $ which python
 ``` 
 
-Depends on yout environment, the path might be different. Here are you two common scenarios:
+Depends on yout environment, the path might be different. Here are two common scenarios:
 
 
 ##### For native python users:  
