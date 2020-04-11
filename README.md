@@ -32,9 +32,9 @@ The drum loops are automatically added by analyzing the structure and grooving o
 * REAPER 5.X
 
 ## Usage
-### 1. Install *beyond_reaper*
 it’s a bit tricky to get it to run. Therefore, we provide you a few tutorials. See the documents below.
 
+### 1. Install *beyond_reaper*
 To controll REAPER in python, you need to install **beyond_reaper**.
 Please check out [here](docs/installation.md) for the instructions.
 
