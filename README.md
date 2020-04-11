@@ -38,6 +38,8 @@ it’s a bit tricky to get it to run. Therefore, we provide you a few tutorials.
 To controll REAPER in python, you need to install **beyond_reaper**.
 Please check out [here](docs/installation.md) for the instructions.
 
+I'm not the author of this awesome package. The sourcr is from [here](https://forum.cockos.com/attachment.php?attachmentid=27176&d=1456526708). Special thanks to the Reaper community.
+
 ### 2. Create Projects
 The instruction [here](docs/project_setting.md) will show musicians and engineers how to setup their REAPER project.
 
