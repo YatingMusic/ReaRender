@@ -18,10 +18,17 @@ This toolkit brings an alternative solution: musician/audio engineers can custom
 
 We hope this toolkit can boost the development in related fields. For example, it can synthesize huge amount of data with high quality, which is beneficial for transcription, source separation, automatic music composition, and etc.
 
-## Meet with our AI Composers
-Listen some samples composed by our AI composition model - [REMI](https://github.com/YatingMusic/remi) and rendered by our [ReaRender](https://github.com/YatingMusic/ReaRender) project.
+## Meet our AI Composers
+Listen to some samples composed by our AI composition model - [REMI](https://github.com/YatingMusic/remi) and rendered by our [ReaRender](https://github.com/YatingMusic/ReaRender) project.
 
-[Link](TBD)
+### Piano solo
+[SoundCloud](https://soundcloud.com/yating_ai/sets/ai-piano-generation-demo-202004)
+
+### Piano + Drums
+The drum loops are automatically added by analyzing the structure and grooving of the generated piano track.  
+
+[SoundCloud](https://soundcloud.com/yating_ai/sets/ai-pianodrum-generation-demo-202004)
+
 
 ## Requirements
 * Python 3
@@ -31,7 +38,7 @@ Listen some samples composed by our AI composition model - [REMI](https://github
 ### 1. Install *beyond_reaper*
 
 To controll REAPER in python, you need to install **beyond_reaper**.
-Please check out [here]((docs/installation.md) for the instructions.
+Please check out [here](docs/installation.md) for the instructions.
 
 ### 2. Create Projects
 The instruction [here](docs/project_setting.md) will show musicians and engineers how to setup their REAPER project.
@@ -42,6 +49,10 @@ We have two templates:
 * multi media - [synth_multi_media.py](synth_multi_media.py)
 
 Following the structure of the repo and place the media files into these corresponding folders. You can run the programs directly.
+
+## Documentation
+1. [Installations](docs/installation.md)
+2. [Project Settings](docs/project_setting.md)
 
 ## License
 MIT License
