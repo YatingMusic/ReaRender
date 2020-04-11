@@ -40,6 +40,8 @@ Please check out [here](docs/installation.md) for the instructions.
 ### 2. Create Projects
 The instruction [here](docs/project_setting.md) will show musicians and engineers how to setup their REAPER project.
 
+it’s a bit tricky to get it to run. Therefore, we provide you a few tutorials. See the documents below.
+
 ### 3. RUN
 We have two templates:
 * single media - [synth_single_media.py](synth_single_media.py)

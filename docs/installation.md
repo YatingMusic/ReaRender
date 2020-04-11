@@ -128,7 +128,7 @@ Python = r"/Users/username/anaconda3/bin/python"
 ```
 
 ## Have Fun
-Finally, we are here. But there are some minor settings you need to pay attention:
+Finally, we are here. But there are some minor settings you need to pay attention to:
 
 * Click "Automatically close when finished", or it will block your process.
 
