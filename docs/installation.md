@@ -28,19 +28,19 @@ beyond_reaper/Introduction & Installation.txt.
 The remaining steps are based on it. But I will visualize and explain every steps to make it easier to understand.
 
 ### 2. Path Settings
-### Edit **beyond.pth** 
-enter the full path to the "./Modules" directory on the first line.
+#### 2a. Edit **beyond.pth** 
+Enter the full path to the "./Modules" directory on the first line.
 
-### Copy **beyond.pth** to python **site-packages** folder**
+#### 2b. Copy **beyond.pth** to python **site-packages** folder**
 First of all, check the current python you are using. Simply type this in your command line:
 ```bash
 $ which python
 ``` 
 
-Depends on yout environment, the path might be different. But here will show you two common scenarios.
+Depends on yout environment, the path might be different. Here are you two common scenarios:
 
 
-#### 2a. For native python users:  
+##### For native python users:  
 The output of above command sould be like this:
 ```bash
 /usr/local/bin/python
@@ -52,7 +52,7 @@ Please copy *beyond.pth* to:
 # original instruction: <Python Path>/Lib/site-packages
 ```
 
-#### 2b. For anaconda users
+##### For anaconda users
 The output of the command sould be like this:
 ```shell
 /Users/username/anaconda3/bin/python
