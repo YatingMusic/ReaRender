@@ -48,7 +48,7 @@ We have two templates:
 Following the structure of the repo and place the media files into these corresponding folders. You can run the programs directly.
 
 ## Documentation
-1. [Installations](docs/installation.md)
+1. [Installation](docs/installation.md)
 2. [Project Settings](docs/project_setting.md)
 
 ## License
