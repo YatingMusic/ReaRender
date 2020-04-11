@@ -40,7 +40,7 @@ $ which python
 Depends on yout environment, the path might be different. Here are two common scenarios:
 
 
-* **For native python users:**
+* **For native python users:**  
 The output of above command sould be like this:
 ```bash
 /usr/local/bin/python
@@ -52,7 +52,7 @@ Please copy *beyond.pth* to:
 # original instruction: <Python Path>/Lib/site-packages
 ```
 
-* **For anaconda users:**
+* **For anaconda users:**  
 The output of the command sould be like this:
 ```shell
 /Users/username/anaconda3/bin/python
