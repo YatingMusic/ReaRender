@@ -134,10 +134,10 @@ Finally, we are here. But there are some minor settings you need to pay attentio
 
 <img src="figs/rendering.png" width="500">
 
-* Timeout setting
+* Timeout setting  
 In ```/Modules/beyond/Network.py```, there is a variable named ```TimeOut```. If you have a file consuming lots of time, you should make it larger.
 
-* [pytautogui](https://pyautogui.readthedocs.io/en/latest/install.html) is your best good friend. If there is any dialogue window blocking your program, just use it to simulate human's behavior - click next!
+* [pytautogui](https://pyautogui.readthedocs.io/en/latest/install.html) is your best friend. If there is any dialogue window blocking your program, just use it to simulate human's behavior - click next!
 
 * The detailed instructions of setting for the musicians and engneers, please visit [project_setting.md](project_setting.md).
 
