@@ -100,7 +100,7 @@ Reaper_RemoteControl_CommandID = "_RS..."
 ```
 <img src="figs/actions.png" width="500">
 
-### 3c. Reaper's OSC and Addresses
+#### 3c. Reaper's OSC and Addresses
 Open ```/Modules/beyond/Reaper/Settings.py```, Step 2.
 
 * From Reaper's "Options/Preferences" select "Control/OSC/web" page.
