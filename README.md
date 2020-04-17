@@ -29,7 +29,7 @@ The drum loops are automatically added by analyzing the structure and grooving o
 
 ## Requirements
 * Python 3
-* REAPER 5.X
+* [REAPER 5.X](https://www.reaper.fm/download-old.php?ver=5x)
 
 ## Usage
 it’s a bit tricky to get it to run. Therefore, we provide you a few tutorials. See the documents below.
