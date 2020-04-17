@@ -6,7 +6,7 @@ import threading
 import pretty_midi
 import beyond.Reaper
 from copy import deepcopy
-from autorender.autogui import click_window
+from rearender.autogui import click_window
 
 
 def traverse_dir(
