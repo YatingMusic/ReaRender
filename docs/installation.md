@@ -18,7 +18,7 @@ The instructions is for **MacOS**. For Windows users, there are only a few diffe
 
 
 ### 1. Unzip the package
-Dowanload and unzip the package [beyond_reaper.zip](beyond_reaper.zip) to anywhere you prefer.
+Dowanload and unzip the package [beyond_reaper.zip](https://github.com/YatingMusic/ReaRender/tree/master/beyond_reaper) to anywhere you prefer.
 
 Next, you will found there is an original insturctions in the folder: 
 ```bash
@@ -48,7 +48,10 @@ The output of above command sould be like this:
 
 Please copy *beyond.pth* to:
 ```shell
-/usr/local/lib/python3.7/site-packages
+/usr/local/l
+
+
+/python3.7/site-packages
 # original instruction: <Python Path>/Lib/site-packages
 ```
 
@@ -78,7 +81,7 @@ If *.dylib* or *.dll* is not found, especially happened in anaconda users, pleas
 * Find the location of your python *.dylib* or *.dll*. For example, mine is ```/Users/username/anaconda3/lib/libpython3.7m.dylib```
 * Unfortunately, REAPER can only recognize ```libpython.dylib``` file. So make a softlink by
 ```shell
-$ ln -s ibpython3.7m.dylib libpython.dylib
+$ ln -s libpython3.7m.dylib libpython.dylib
 ```
 * Fill the "Custom path to python dll directory" section.
 For example, mine is ```/Users/username/anaconda3/lib```, as shown in the figure
