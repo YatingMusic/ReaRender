@@ -16,7 +16,7 @@ tolerance_sec = 20
 # IO folders
 # [!] full path recommended
 path_indir = '/Users/username/.../data/signle_media/midi'
-path_outdir = '/Users/username/.../data/signle_media/midi'
+path_outdir = '/Users/username/.../data/signle_media/audio'
 
 # list files
 filelist = traverse_dir(
