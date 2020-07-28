@@ -48,10 +48,7 @@ The output of above command sould be like this:
 
 Please copy *beyond.pth* to:
 ```shell
-/usr/local/l
-
-
-/python3.7/site-packages
+/usr/local/lib/python3.7/site-packages
 # original instruction: <Python Path>/Lib/site-packages
 ```
 
