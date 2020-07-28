@@ -11,6 +11,15 @@ The original source of package is from [here](https://forum.cockos.com/showthrea
 
 The document is currently based on MAC. For Windows users, there are just few difference in path or command, so you can keep reading. I will find someday to complete it.
 
+***Stable Environment***
+* REAPER: v5.982, v5.99
+* python: 3.7
+
+
+```bash
+conda install python=3.7 # force to reset anaconda python version
+```
+  
 ---
 
 ## Installation
