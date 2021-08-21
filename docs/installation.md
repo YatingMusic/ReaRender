@@ -98,13 +98,13 @@ For example, mine is ```/Users/username/anaconda3/lib```, as shown in the figure
 #### 3b. Load RemoteControl Script
 Open ```/Modules/beyond/Reaper/Settings.py```, Step 1.
 
-* From Reaper's "Actions/Show action list..." press "ReaScript: Load..."
+* From Reaper's "New Action>Load ReaScript" press "ReaScript: Load..."
 * Find and select file ```...\Modules\beyond\Reaper\RemoteControl.py```
 * Back on the Actions list, you will see "Script: RemoteControl.py"
 * Right click on it and select "Copy selected action command ID"
 * Paste that to the line here:
 ```python
-# in ...\Modules\beyond\Reaper\RemoteControl.py
+# in ...\Modules\beyond\Reaper\Settings.py
 Reaper_RemoteControl_CommandID = "_RS..."
 ```
 <img src="figs/actions.png" width="500">
