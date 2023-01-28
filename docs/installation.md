@@ -27,7 +27,7 @@ The instructions is for **MacOS**. For Windows users, there are only a few diffe
 
 
 ### 1. Unzip the package
-Dowanload and unzip the package [beyond_reaper.zip](https://github.com/YatingMusic/ReaRender/tree/master/beyond_reaper) to anywhere you prefer.
+Download and unzip the package [beyond_reaper.zip](https://github.com/YatingMusic/ReaRender/tree/master/beyond_reaper) to anywhere you prefer.
 
 Next, you will found there is an original insturctions in the folder: 
 ```bash
