@@ -69,9 +69,10 @@ def move_cursor_start():
 
 
 def set_current_track(tidx):
-    Reaper.Main_OnCommand(40297, 0)     # unselected all track
-    Reaper.SetTrackSelected(            # set selected track
-        Reaper.GetTrack(0, tidx), True) 
+    #Reaper.Main_OnCommand(40297, 0)     # unselected all track
+    #Reaper.SetTrackSelected(Reaper.GetTrack(0, tidx), True)             # set selected track
+    trackId = Reaper.GetTrack(0, tidx)
+    Reaper.SetOnlyTrackSelected(trackId)
 
 
 def set_track_media(path_track, tidx, is_press=False):
@@ -82,6 +83,26 @@ def set_track_media(path_track, tidx, is_press=False):
         t.start()
     Reaper.InsertMedia(path_track, 0)
 
+def select_all_region():
+    start,end=0,0#self.get_region()
+    Reaper.Main_OnCommand(40035, 0) #select all items
+    itemsNum = Reaper.CountSelectedMediaItems(0)
+    out=[]
+    for i in range(itemsNum):
+        item=Reaper.GetSelectedMediaItem(0, i)
+        #rpr.RPR_IsMediaItemSelected(item)
+        itemStart=Reaper.GetMediaItemInfo_Value(item,"D_POSITION")
+        itemEnd=itemStart+Reaper.GetMediaItemInfo_Value(item,"D_LENGTH")
+        if itemStart <start:
+            start=max(0,itemStart)
+        if itemEnd > end:
+            end = itemEnd
+    Reaper.GetSet_LoopTimeRange(True, 0, start, end, 0) #設定範圍
+    #Reaper.Main_OnCommand(40289,0)
+    #for item in out:
+    #    Reaper.SetMediaItemSelected(item,True)
+        
+    return out
 
 def render_media(
         path_media, 
@@ -149,6 +170,7 @@ def render_multi_media(
 
     # save
     Reaper.Main_OnCommand(40296, 0) # select all
+    select_all_region()
     Reaper.Main_OnCommand(41824, 0) # render project
 
 
